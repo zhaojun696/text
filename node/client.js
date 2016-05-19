@@ -1,4 +1,3 @@
-var net = require('net');
 
 client.on('data', function(data) {
    console.log(data.toString());
